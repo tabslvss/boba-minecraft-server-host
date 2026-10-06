@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" data-theme="dark" data-accent="taro">
+<head>
+  <meta charset="utf-8" />
+  <!-- Security: only load our own files, plus images from the web (mod icons, player heads) -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self'" />
+  <title>Boba Minecraft Server Host Tool</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Custom title bar (drag the window from here) -->
+  <div id="titlebar">
+    <div class="tb-brand">
+      <img src="../assets/icon.png" alt="" class="tb-logo" />
+      <span class="tb-title">Boba <b>Minecraft Server Host Tool</b></span>
+    </div>
+    <div class="tb-drag"></div>
+    <div class="tb-buttons">
+      <button class="tb-btn" id="tb-min" title="Minimize"><svg viewBox="0 0 12 12"><path d="M2 6h8" /></svg></button>
+      <button class="tb-btn" id="tb-max" title="Maximize"><svg viewBox="0 0 12 12"><rect x="2.5" y="2.5" width="7" height="7" rx="1" /></svg></button>
+      <button class="tb-btn tb-close" id="tb-close" title="Close"><svg viewBox="0 0 12 12"><path d="M3 3l6 6M9 3l-6 6" /></svg></button>
+    </div>
+  </div>
+
+  <div id="app">
+    <!-- Left side: server picker + navigation -->
+    <aside id="sidebar">
+      <div id="server-switcher"></div>
+      <nav id="nav"></nav>
+      <div class="sidebar-bottom">
+        <button class="nav-item" id="btn-new-server"></button>
+        <button class="nav-item" id="btn-app-settings"></button>
+        <div id="sys-meter"></div>
+      </div>
+    </aside>
+
+    <!-- Right side: the current page -->
+    <main id="main">
+      <header id="topbar"></header>
+      <section id="view"></section>
+    </main>
+  </div>
+
+  <div id="tooltip" role="tooltip"></div>
+  <div id="toasts"></div>
+  <div id="modal-root"></div>
+  <div id="context-menu"></div>
+
+  <!-- Scripts load in order: helpers first, then each page, then the app starter -->
+  <script src="js/icons.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/settings-schema.js"></script>
+  <script src="js/views/welcome.js"></script>
+  <script src="js/views/create.js"></script>
+  <script src="js/views/dashboard.js"></script>
+  <script src="js/views/console.js"></script>
+  <script src="js/views/files.js"></script>
+  <script src="js/views/players.js"></script>
+  <script src="js/views/content.js"></script>
+  <script src="js/views/backups.js"></script>
+  <script src="js/views/settings.js"></script>
+  <script src="js/views/network.js"></script>
+  <script src="js/views/app-settings.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

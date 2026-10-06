@@ -1,0 +1,46 @@
+{
+  "name": "boba-minecraft-server-host-tool",
+  "productName": "Boba Minecraft Server Host Tool",
+  "version": "1.0.0",
+  "description": "Free, open-source desktop app to host a Minecraft server with no port forwarding: Paper, Fabric, Forge, NeoForge, modpacks, built-in console, file explorer, backups and a permanent playit.gg address.",
+  "main": "main.js",
+  "author": "tafds",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0"
+  },
+  "keywords": [
+    "minecraft",
+    "minecraft-server",
+    "minecraft-server-manager",
+    "minecraft-server-hosting",
+    "server-panel",
+    "electron",
+    "paper",
+    "purpur",
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt",
+    "modpack",
+    "modrinth",
+    "playit",
+    "no-port-forwarding",
+    "windows",
+    "gui"
+  ],
+  "homepage": "https://github.com/tabslvss/boba-minecraft-server-host#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tabslvss/boba-minecraft-server-host.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tabslvss/boba-minecraft-server-host/issues"
+  }
+}

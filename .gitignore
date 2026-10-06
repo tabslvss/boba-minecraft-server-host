@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Created by the app at runtime. Never commit these!
+# data/ holds your app settings and your PRIVATE playit.gg secret
+data/
+# servers/ holds your Minecraft servers and backups
+servers/
+# runtime/ holds downloaded Java, tools/ holds the playit.gg agent
+runtime/
+tools/
+
+# Misc
+Claude outputs/
+*.log
+*.part
+.DS_Store
+Thumbs.db
