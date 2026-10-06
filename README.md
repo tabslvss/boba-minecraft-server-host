@@ -2,7 +2,7 @@
 
 <img src="docs/banner.png" alt="Boba Minecraft Server Host Tool: host a Minecraft server with no port forwarding" width="100%" />
 
-# 🧋 Boba Minecraft Server Host Tool
+# Boba Minecraft Server Host Tool
 
 **The free, open-source desktop app to host your own Minecraft server in a few clicks. No port forwarding, a permanent address for your friends, and every setting explained.**
 
@@ -19,20 +19,20 @@
 
 ---
 
-## ✨ Why Boba?
+## Why Boba?
 
 Hosting a Minecraft server usually means installing Java, downloading the right jar, editing config files, and opening ports on your router. **Boba does all of that for you**, in a clean, modern app.
 
-- 🌍 **No port forwarding.** A free [playit.gg](https://playit.gg) tunnel gives you an address like `boba-tea.joinmc.link` that **stays the same every time you boot**.
-- 📦 **Every server type.** Vanilla, Paper, Purpur, Fabric, Quilt, Forge, NeoForge, or a full **Modrinth modpack** in one click.
-- ☕ **Java handled for you.** The right Java version (8, 17, 21, 25…) downloads automatically from Eclipse Temurin.
-- 🧩 **Mods & plugins built in.** Search Modrinth, click install, and required dependencies come too.
-- 🛟 **Safe by default.** Auto-restart after a crash, scheduled backups, and deleted files go to the Recycle Bin.
-- 🎨 **Looks good.** Dark and light themes, 6 accent colors, and every setting has a tooltip with an example.
+- **No port forwarding.** A free [playit.gg](https://playit.gg) tunnel gives you an address like `boba-tea.joinmc.link` that **stays the same every time you boot**.
+- **Every server type.** Vanilla, Paper, Purpur, Fabric, Quilt, Forge, NeoForge, or a full **Modrinth modpack** in one click.
+- **Java handled for you.** The right Java version (8, 17, 21, 25…) downloads automatically from Eclipse Temurin.
+- **Mods & plugins built in.** Search Modrinth, click install, and required dependencies come too.
+- **Safe by default.** Auto-restart after a crash, scheduled backups, and deleted files go to the Recycle Bin.
+- **Looks good.** Dark and light themes, 6 accent colors, and every setting has a tooltip with an example.
 
 ---
 
-## 🚀 Quick start
+## Quick start
 
 > **Requirements:** Windows 10/11 and [Node.js LTS](https://nodejs.org) (one-time install). Boba downloads everything else by itself.
 
@@ -51,7 +51,7 @@ npm start
 
 ---
 
-## 🧰 Features
+## Features
 
 | Area | What you get |
 |---|---|
@@ -71,7 +71,7 @@ npm start
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <table>
   <tr>
@@ -119,11 +119,11 @@ npm start
 
 ---
 
-## 🎮 Supported server types
+## Supported server types
 
 | Type | Best for | Mods / plugins |
 |---|---|---|
-| **Paper** ⭐ | Most servers. Fast and stable | Bukkit / Spigot / Paper plugins |
+| **Paper** | Most servers. Fast and stable | Bukkit / Spigot / Paper plugins |
 | **Purpur** | Paper plus lots of extra settings | Bukkit / Spigot / Paper plugins |
 | **Vanilla** | Pure Minecraft, like singleplayer | None |
 | **Fabric** | Lightweight mods, performance mods | Fabric mods |
@@ -135,13 +135,13 @@ npm start
 
 ---
 
-## 🌍 How "no port forwarding" works
+## How "no port forwarding" works
 
 ```mermaid
 flowchart LR
-    F["👥 Your friends<br/>Minecraft client"] -->|"boba-tea.joinmc.link"| P["☁️ playit.gg<br/>free tunnel"]
-    P -->|"secure tunnel"| A["🧋 Boba<br/>(playit agent)"]
-    A --> S["🖥️ Your Minecraft server<br/>localhost:25565"]
+    F["Your friends<br/>Minecraft client"] -->|"boba-tea.joinmc.link"| P["playit.gg<br/>free tunnel"]
+    P -->|"secure tunnel"| A["Boba<br/>(playit agent)"]
+    A --> S["Your Minecraft server<br/>localhost:25565"]
 ```
 
 1. Boba downloads the small official **playit.gg agent** and runs it in the background.
@@ -153,7 +153,7 @@ flowchart LR
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 <details>
 <summary><b>How do I host a Minecraft server for free without port forwarding?</b></summary>
@@ -199,7 +199,7 @@ Boba is built and tested for Windows. Most of it is cross-platform (Electron + N
 
 ---
 
-## 🏗️ Tech stack & project structure
+## Tech stack & project structure
 
 **Electron** · **Node.js** · plain **HTML / CSS / JavaScript** (no build step, beginner friendly, every file commented).
 
@@ -229,20 +229,20 @@ Folders created at runtime (ignored by git): `servers/`, `runtime/` (Java), `too
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Bug reports, feature ideas, translations and pull requests all help.
 
 1. Fork the repo and create a branch: `git checkout -b feature/my-idea`
 2. Run it with `npm install` and `npm start`
 3. Keep code simple and commented (this project is beginner friendly)
-4. Open a pull request 🎉
+4. Open a pull request
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details. Found a bug? [Open an issue](../../issues/new/choose).
 
 ---
 
-## 🙏 Credits
+## Credits
 
 - Tunnels: [playit.gg](https://playit.gg)
 - Mods, plugins and modpacks: [Modrinth](https://modrinth.com) API
@@ -255,7 +255,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details. Found a bug? [Open an issue]
 
 ---
 
-## 📄 License
+## License
 
 [MIT](LICENSE) © tafds
 
@@ -265,6 +265,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details. Found a bug? [Open an issue]
 
 <div align="center">
 
-**If Boba helped you, please ⭐ star the repo. It helps others find it!**
+**If Boba helped you, please star the repo. It helps others find it!**
 
 </div>

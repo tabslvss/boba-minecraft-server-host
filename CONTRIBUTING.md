@@ -1,4 +1,4 @@
-# Contributing to Boba 🧋
+# Contributing to Boba
 
 Thanks for helping make Boba better!
 
